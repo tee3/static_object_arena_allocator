@@ -1,0 +1,10 @@
+import testing ;
+
+project
+  : requirements
+     <cxxflags>-std=c++14
+
+     <include>.
+  ;
+
+run test_static_object_arena_allocator.cpp ;
